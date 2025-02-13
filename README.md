@@ -1,7 +1,7 @@
 # Premier League Data Visualization
 
 ## Introduction
-This project visualizes the positions of English Premier League teams from 1993 to 2022 using an animated chart. The visualization allows users to track team rankings over the years, with an interactive feature that highlights a specific team's progression when clicked.
+This project visualizes the positions of English Premier League teams from 1993 to 2022 using an animated chart in python. The visualization allows users to track team rankings over the years, with an interactive feature that highlights a specific team's progression when clicked.
 
 ## Dataset Information
 - **Source**: [Kaggle - English Premier League Standings](https://www.kaggle.com/datasets/evangower/english-premier-league-standings)
@@ -26,10 +26,11 @@ This project visualizes the positions of English Premier League teams from 1993 
 ## Output
 - **Animated Graph** (`premier_league_positions.gif`):
   - Displays team standings season by season
-
+![](OUTPUT/positions.gif)
 
 - **Interactive using Matplotlib’s `pick_event`**
     - Hover over single teams chart to highlight its progress over the years
+![](OUTPUT/EPL.png)
 
 ## Conclusion
 This project provides a visual representation of Premier League teams' performance over three decades. The interactive feature enhances user experience by allowing focused analysis on specific teams. The animation gives a dynamic perspective on club rankings, making it easier to identify trends and dominance over time.
